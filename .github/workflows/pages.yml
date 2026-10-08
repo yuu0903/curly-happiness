@@ -30,6 +30,7 @@ jobs:
           cp tiktok-auto/public/terms.html _site/terms.html
           cp tiktok-auto/public/privacy.html _site/privacy.html
           touch _site/.nojekyll
+          cp tiktok-auto/public/tiktok*.txt _site/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
